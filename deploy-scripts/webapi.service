@@ -1,9 +1,9 @@
 [Unit]
-Description=Some Desc
+Description=CW by dscc
 
 [Service]
 WorkingDirectory=/var/www/
-ExecStart=/usr/bin/dotnet /var/www/WebApplication1.dll
+ExecStart=/usr/bin/dotnet /var/www/DSCC_CW1_API.dll
 Restart=always
 
 RestartSec=10
